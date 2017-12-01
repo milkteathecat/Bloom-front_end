@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b73b178-38ca-41e5-80ad-bdd6e51c018e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/styles/App.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App.test.js" afterPath="$PROJECT_DIR$/src/tests/App.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Header.js" afterPath="$PROJECT_DIR$/src/components/Header.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main.css" afterPath="$PROJECT_DIR$/src/styles/Main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main.js" afterPath="$PROJECT_DIR$/src/components/Main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Register.css" afterPath="$PROJECT_DIR$/src/styles/Register.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Register.js" afterPath="$PROJECT_DIR$/src/components/Register.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="$PROJECT_DIR$/src/assets/images/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/Login.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Main.js" afterPath="$PROJECT_DIR$/src/components/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/App.css" afterPath="$PROJECT_DIR$/src/styles/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/Main.css" afterPath="$PROJECT_DIR$/src/styles/Main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,21 +21,9 @@
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="45">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +41,8 @@
       <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -67,14 +50,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Register.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Login.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/Login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="1551">
               <caret line="129" column="13" lean-forward="true" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/Main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="15">
+              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -121,23 +124,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -162,7 +155,11 @@
         <option value="$PROJECT_DIR$/src/constants.js" />
         <option value="$PROJECT_DIR$/src/Register.js" />
         <option value="$PROJECT_DIR$/src/components/Register.js" />
+        <option value="$PROJECT_DIR$/src/components/Login.js" />
         <option value="$PROJECT_DIR$/src/components/Main.js" />
+        <option value="$PROJECT_DIR$/src/styles/Login.css" />
+        <option value="$PROJECT_DIR$/src/styles/App.css" />
+        <option value="$PROJECT_DIR$/src/styles/Main.css" />
       </list>
     </option>
   </component>
@@ -216,6 +213,12 @@
               <item name="around" type="b2602c69:ProjectViewProjectNode" />
               <item name="around" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="around" type="b2602c69:ProjectViewProjectNode" />
+              <item name="around" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="around" type="b2602c69:ProjectViewProjectNode" />
@@ -358,12 +361,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511647655425</updated>
-      <workItem from="1511647660538" duration="8750000" />
+      <workItem from="1511647660538" duration="9377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8750000" />
+    <option name="totallyTimeSpent" value="9377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="43" width="1260" height="677" extended-state="0" />
@@ -444,30 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/Register.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/Main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/constants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -476,23 +455,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="2">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1551">
+          <caret line="129" column="13" lean-forward="true" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Register.js">
+    <entry file="file://$PROJECT_DIR$/src/styles/Register.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="129" column="13" lean-forward="true" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/Login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/Main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
