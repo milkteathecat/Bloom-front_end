@@ -4,11 +4,14 @@ import { Main } from './Main';
 import '../styles/App.css';
 
 class App extends Component {
+  state = {
+    isLoggedIn: false,
+  }
   render() {
     return (
       <div className="App">
-        <Header />
-          <Main />
+        <Header isLoggedIn={this.state.isLoggedIn}/>
+          <Main isLoggedIn={this.state.isLoggedIn}/>
       </div>
     );
   }
