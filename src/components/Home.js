@@ -1,12 +1,12 @@
 import React from 'react';
 import $ from 'jquery';
-import { Tabs, Button, Spin } from 'antd';
+import { Tabs, Spin } from 'antd';
 import { GEO_OPTIONS, POS_KEY, API_ROOT,AUTH_PREFIX, TOKEN_KEY } from "../constants";
 import { Gallery } from "./Gallery";
+import { CreatePostButton } from "./CreatePostButton";
 
 
 const TabPane = Tabs.TabPane;
-const operations = <Button>Extra Action</Button>;
 
 export class Home extends React.Component {
     state = {
@@ -84,8 +84,9 @@ export class Home extends React.Component {
     }
 
     render() {
+        const createPostButton = <CreatePostButton loadNearbyPosts={this.loadNearbyPosts}/>
         return (
-            <Tabs tabBarExtraContent={operations} className="main-tabs">
+            <Tabs tabBarExtraContent={createPostButton} className="main-tabs">
                 <TabPane tab="Posts" key="1">
                     {this.getGalleryPanelContent()}
                 </TabPane>
