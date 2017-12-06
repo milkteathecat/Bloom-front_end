@@ -48,7 +48,7 @@ export class Home extends React.Component {
             return <Spin tip="Loading geo location..."/>
         } else if (this.state.loadingPosts) {
             return <Spin tip="Loading posts..."/>
-        } else if (this.state.posts.length > 0) {
+        } else if (this.state.posts && this.state.posts.length > 0) {
             const images = this.state.posts.map((post) => {
                 return {
                     user: post.user,
