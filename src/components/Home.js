@@ -4,6 +4,7 @@ import { Tabs, Spin } from 'antd';
 import { GEO_OPTIONS, POS_KEY, API_ROOT,AUTH_PREFIX, TOKEN_KEY } from "../constants";
 import { Gallery } from "./Gallery";
 import { CreatePostButton } from "./CreatePostButton";
+import { WrappedAroundMap } from "./AroundMap";
 
 
 const TabPane = Tabs.TabPane;
@@ -91,7 +92,12 @@ export class Home extends React.Component {
                     {this.getGalleryPanelContent()}
                 </TabPane>
                 <TabPane tab="Map" key="2">
-                    Content of tab 2
+                    <WrappedAroundMap
+                        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4R6AN7SmujjPUIGKdyao2Kqitzr1kiRg&v=3.exp&libraries=geometry,drawing,places"
+                        loadingElement={<div style={{ height: `100%` }} />}
+                        containerElement={<div style={{ height: `400px` }} />}
+                        mapElement={<div style={{ height: `100%` }} />}
+                    />
                 </TabPane>
             </Tabs>
         );
