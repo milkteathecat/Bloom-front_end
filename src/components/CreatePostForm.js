@@ -1,5 +1,6 @@
 import React from 'react';
 import { Form, Input, Upload, Icon } from 'antd';
+
 const FormItem = Form.Item;
 
 class CreatePostForm extends React.Component {
@@ -13,7 +14,11 @@ class CreatePostForm extends React.Component {
 
     beforeUpload = () => {
         return false;
-}
+    }
+
+    getWrapperForm = () => {
+        return this.props.form;
+    }
 
     render() {
         const { getFieldDecorator } = this.props.form;
