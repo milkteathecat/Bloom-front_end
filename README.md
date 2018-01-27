@@ -4,6 +4,11 @@ A frontend web app based on Bloom web service.
 
 Users can login and post images and messages as well as view posts nearby or in designated area.
 
+React component sources:
+* Components for all the forms and buttons: ant design(https://ant.design/docs/react/introduce)
+* Grid gallary component: https://github.com/benhowell/react-grid-gallery
+* Google Map API: https://github.com/tomchentw/react-google-maps
+
 1. Register
 
 ![alt text](https://github.com/milkteathecat/Bloom-front_end/blob/master/register.jpg)
