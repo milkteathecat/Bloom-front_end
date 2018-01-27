@@ -14,7 +14,7 @@ Users can login and post images and messages as well as view posts nearby or in 
 
 3. Home page & Grid gallary
 
-![alt text](https://github.com/milkteathecat/Bloom-front_end/blob/master/gallary1.jpg)
+![alt text](https://github.com/milkteathecat/Bloom-front_end/blob/master/gallery1.jpg)
 
 Click on one post to see larger picture
 
