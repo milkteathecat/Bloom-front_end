@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b73b178-38ca-41e5-80ad-bdd6e51c018e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/create_new_post.tiff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallary2.tiff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery1.tiff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login.tiff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/map.tiff" afterPath="" />
-    </list>
+    <list default="true" id="0b73b178-38ca-41e5-80ad-bdd6e51c018e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -377,12 +371,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511647655425</updated>
       <workItem from="1511647660538" duration="42688000" />
-      <workItem from="1517001379028" duration="3548000" />
+      <workItem from="1517001379028" duration="3791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46236000" />
+    <option name="totallyTimeSpent" value="46479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="43" width="1260" height="677" extended-state="0" />
